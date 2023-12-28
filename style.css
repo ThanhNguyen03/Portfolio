@@ -2,16 +2,16 @@
 
 :root{
     --color-body: #141c1d;
-    --color-heading: #eef3db;
-    --color-base: #D3D3D3;
+    --color-heading: #0034ad;
+    --color-base: #1d8aa9;
     --color-base2: #022a30; 
-    --color-brand: #165045;
+    --color-brand: #add8e6;
     --color-brand2: #28add9;
     --sidbar-width: 350px;
     --font-base: "Bai Jamjuree";
 }
 body {
-    background-color:#39aabc !important;
+    background-color:#b0f9ff !important;
     color: var(--color-body) !important;
     font-family: var(--font-base) !important;
 }
@@ -34,12 +34,20 @@ h1,h2,h3,h4,h5,h6{
 img{
     width: 100%
 }
+.head-text-brand{
+    color: #009999 !important;
+}
 .text-brand{
-    color: #71d4c8 !important;
+    color: #020505 !important;
+    font-weight: bold;
 }
 
 .bg-base{
-    background-color:#71d4c8 ;
+    background-color:#62b4cf ;
+}
+
+.mb-0{
+    color: #fff;
 }
 
 .full-height {
@@ -58,7 +66,7 @@ img{
 }
 
 .shadow-effect:hover{
-    box-shadow: -6px 6px 0 0 var(--color-brand);
+    box-shadow: -6px 6px 0 0 #1f1f53;
 }
 
 .iconbox{
@@ -86,7 +94,8 @@ img{
 }
 
 .navbar .nav-link:hover{
-    color: var(--color-brand);
+    color: #120c0c;
+    font-weight: bolder;
 }
 
 @media (min-width: 992px){
@@ -115,7 +124,7 @@ img{
     padding: 5px;
 }
 .navbar-brand img{
-    border: 8px solid var(--color-brand);
+    border: 8px solid #1f2d3e;
 }
 
 
@@ -128,16 +137,16 @@ font-weight: 700 !important;
 }
 
 .btn-brand{
-background-color: var(--color-brand) !important;
+background-color: #004dad !important;
 border-color: var(--color-brand) !important;
-color: var(--color-base) !important;
+color: #fff !important;
 }
 
 .btn-brand:hover,
 .btn-brand:focus {
-background-color: var(--color-brand2) !important;
-color: var(--color-base) !important; 
-border-color: var(--color-brand2) !important;
+background-color: #80b8fc !important;
+color: #000 !important; 
+border-color: #81baff !important;
 }
 
 .link-custom{
@@ -149,7 +158,7 @@ position: relative;
 content: "";
 width: 0%;
 height: 2px;
-background-color: var(--color-brand);
+background-color: #fff;
 position: absolute;
 left: 0;
 top: 110%;
@@ -176,7 +185,7 @@ transform: scale(1.1);
 /* CONTACT */
 
 #contact .form-control {
-background-color: var(--color-base) !important;
+background-color: #fff !important;
 border-color: var(--color-base) !important;
 color: var(--color-body) !important;
 }
